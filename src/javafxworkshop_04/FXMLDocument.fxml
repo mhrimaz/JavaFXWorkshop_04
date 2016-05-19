@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxworkshop_04.FXMLDocumentController">
+   <children>
+      <ProgressBar fx:id="bar" layoutX="61.0" layoutY="168.0" prefWidth="200.0" progress="0.0" />
+      <ProgressIndicator fx:id="indicator" layoutX="146.0" layoutY="100.0" progress="0.0" />
+      <Slider fx:id="slider" blockIncrement="20.0" layoutX="36.0" layoutY="14.0" majorTickUnit="0.25" max="2.0" minorTickCount="2" prefHeight="38.0" prefWidth="277.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <TextField fx:id="field" layoutX="87.0" layoutY="59.0" />
+      <Label fx:id="label" layoutX="146.0" layoutY="229.0" text="Label" />
+   </children>
+</AnchorPane>
